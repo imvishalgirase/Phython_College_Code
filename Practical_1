@@ -1,0 +1,4 @@
+print("THIS IS WEIGHTS TYPE CHANGER ")
+a= float(input("Enter Your Weight In Pounds"))
+b = 2.2/a # we didn't add float here because it is not a input function but it is a arithmetic operations 
+print(" YOUR WEIGHT IN KG IS" ,b)
