@@ -1,1 +1,7 @@
-# i will add fresh t
+# practical 3 = Total And Average Of Three Number
+a= float(input("Enter The Number 1")      )
+b= float(input("Enter The Number 2")      )
+c= float(input("Enter The Number 3")      )
+Total = a+ b+c
+Avg   = (a+b+c)/3
+print(" The Total And The Average Of Your Enter  3 Number Is",Total,Avg)
