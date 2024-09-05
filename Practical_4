@@ -1,0 +1,4 @@
+n= input(" Enter any name")
+x= int(input("How many times you want to print your name "))
+for i in range(x):
+    print(n)
