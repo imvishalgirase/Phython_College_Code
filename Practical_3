@@ -1,0 +1,5 @@
+#practical 3
+for ran in range(8,190,3):
+      print(ran)
+      
+ 
