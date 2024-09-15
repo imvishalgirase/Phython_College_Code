@@ -1,0 +1,9 @@
+#star patter using for loop
+for i in range(1, 6):  # Start from 1 and go up to 5
+    print('*' * i)  # Print '*' multiplied by the current number 
+
+#star paterrn using while loop
+i = 1  # Start with 1
+while i <= 5:  # As long as i is less than or equal to 5
+    print('*' * i)  # Print '*' repeated i times
+    i += 1  # Increase i by 1
