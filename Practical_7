@@ -1,0 +1,11 @@
+# Get two numbers from the user
+num1 = float(input("Enter the first number: "))
+num2 = float(input("Enter the second number: "))
+
+# Check if the numbers are close within 0.001
+if (num1 > num2 and num1 - num2 < 0.001) or (num2 > num1 and num2 - num1 < 0.001):
+    print("Close")
+elif num1 == num2:  # If the numbers are exactly the same
+    print("Close")
+else:
+    print("Not close")
