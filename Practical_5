@@ -1,0 +1,11 @@
+import random 
+random_ran = random.randint(1,10)
+user_guess = int(input("Enter the numner in btw 1 to 10"))
+if random_ran==user_guess:
+    print("user guses is",user_guess)
+    print("and the ranom",random_ran)
+    print(" You are coreect and matched your number is ",random_ran)
+else:
+    print("Your are not matche try another time")
+    print("user guses is",user_guess)
+    print("and the ranom",random_ran)
