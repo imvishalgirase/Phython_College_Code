@@ -1,0 +1,13 @@
+word = input("enter the word")
+vowel = 'aeiouAEIOU'
+check =  0  # this can be any varable
+# first of all tack charcter from the vowel and check in the word 
+for i in vowel:
+    # here is the checking is there
+    if i in word:
+        check=2 # this can be  1 2 3 4 anythis we want 
+        break
+if (check== 2):
+    print("word has vowel")
+else:
+    print("Word does not have any vowel")
