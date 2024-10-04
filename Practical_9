@@ -1,0 +1,18 @@
+#checking the leght o fht estring and alternative merge is sesthere
+
+s1 = input("Enter the string one::")
+s2 = input("Enter the string second::")
+merged_string = ""
+i, j = 0, 0
+len1, len2 = len(s1), len(s2)
+
+while i < len1 or j < len2:
+    if i < len1:
+        merged_string += s1[i]
+        i += 1
+    if j < len2:
+        merged_string += s2[j]
+        j += 1
+
+print(merged_string)
+   
